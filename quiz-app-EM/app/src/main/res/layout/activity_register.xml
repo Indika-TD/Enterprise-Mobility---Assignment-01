@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/color_two"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:fontFamily="@font/open_sans_bold"
+            android:textSize="18sp"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/add_img"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:id="@+id/name"
+            android:fontFamily="@font/open_sans_regular"
+            android:gravity="center"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textColor="@color/color_three"
+            android:textColorHint="@color/color_three_9"
+            android:textCursorDrawable="@null"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textCursorDrawable="@null"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:background="@null"
+            android:id="@+id/mobile"
+            android:inputType="number"
+            android:fontFamily="@font/open_sans_regular"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/color_three"
+            android:textColorHint="@color/color_three_9"
+            android:hint="@string/mobile"/>
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textCursorDrawable="@null"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:id="@+id/email"
+            android:background="@null"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/open_sans_regular"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/color_three"
+            android:textColorHint="@color/color_three_9"
+            android:hint="@string/email"/>
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:fontFamily="@font/open_sans_regular"
+            android:gravity="center"
+            android:id="@+id/password"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/color_three"
+            android:textColorHint="@color/color_three_9"
+            android:textCursorDrawable="@null"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:fontFamily="@font/open_sans_regular"
+            android:gravity="center"
+            android:id="@+id/con_password"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:textColor="@color/color_three"
+            android:textColorHint="@color/color_three_9"
+            android:textCursorDrawable="@null"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/avi"
+            android:visibility="gone"
+            app:indicatorName="BallClipRotatePulseIndicator"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            app:indicatorColor="@color/color_three"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/register"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@color/color_three"
+            android:fontFamily="@font/open_sans_regular"
+            android:text="@string/register"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/open_sans_bold"
+            android:gravity="center"
+            android:text="@string/des_log"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

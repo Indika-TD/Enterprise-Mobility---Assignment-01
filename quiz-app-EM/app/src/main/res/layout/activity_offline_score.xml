@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_two"
+    android:layout_height="match_parent"
+    tools:context=".ScoreActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/cup"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/completed_text"
+            android:fontFamily="@font/open_sans_bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/open_sans_bold"
+            android:gravity="center"
+            android:id="@+id/score"
+            android:textColor="@color/color_three"
+            android:textSize="25sp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/paly"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_three"
+            android:fontFamily="@font/open_sans_regular"
+            android:text="@string/play_again"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

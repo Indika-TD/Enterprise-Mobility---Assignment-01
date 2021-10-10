@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/color_two"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:id="@+id/back"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/back"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layout"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="70dp">
+
+            <TextView
+                android:id="@+id/que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/one"
+            android:minHeight="70dp">
+
+            <RelativeLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/clickOne"
+                android:layout_centerVertical="true"
+                android:background="@drawable/round"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_regular"
+                android:layout_centerVertical="true"
+                android:id="@+id/a1"
+                android:textSize="15sp"
+                android:layout_marginStart="60dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/two"
+            android:minHeight="70dp">
+
+            <RelativeLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/clickTwo"
+                android:layout_centerVertical="true"
+                android:background="@drawable/round"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_regular"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                android:id="@+id/a2"
+                android:layout_marginStart="60dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/three"
+            android:minHeight="70dp">
+
+            <RelativeLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/clickThree"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/round"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a3"
+                android:fontFamily="@font/open_sans_regular"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                android:layout_marginStart="60dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/four"
+            android:minHeight="70dp">
+
+            <RelativeLayout
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/clickFour"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/round"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a4"
+                android:fontFamily="@font/open_sans_regular"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                android:layout_marginStart="60dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"/>
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/next"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/menu_box_click"
+            android:fontFamily="@font/open_sans_regular"
+            android:text="@string/next"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Programming Quiz App</string>
+    <string name="login">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="des_reg">Don\'t you have an account?\nSign up here</string>
+    <string name="des_log">Do you have an account?\nSign in here</string>
+    <string name="register">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="welcome">Welcome,\nSign up to Programming Quiz App</string>
+    <string name="java_learn">Learn Java</string>
+    <string name="c_learn">Learn c</string>
+    <string name="py_learn">Learn Python</string>
+    <string name="php_learn">Learn php</string>
+    <string name="profile">Your Information</string>
+    <string name="level">Select level</string>
+    <string name="level_one">Level one</string>
+    <string name="level_two">Level two</string>
+    <string name="next">Next</string>
+    <string name="completed_text">Programming Quiz successfully\ncompleted</string>
+    <string name="play_again">Play Again</string>
+    <string name="logout">Logout</string>
+    <string name="offline">Play Offline</string>
+    <string name="offline_level">Learn java - Offline</string>
+</resources>
